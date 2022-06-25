@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.0.3" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookLibrary.Infrastructure\BookLibrary.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
